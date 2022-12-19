@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<input type="text" id="replace">
+<input type="button" value="Make Replace" onclick="justDoIt()">
+
+
+    <script>
+//replace somehing with some thing elase built-in value 
+//means create a new one but not change like uppercase lowercase
+//write something with space and it will change space to dash -
+function justDoIt(){
+var a = document.getElementById("replace").value;
+var result = a.replace(" ", "-")
+document.getElementById("replace").value = result
+
+
+}
+
+
+
+
+    </script>
+    
+</body>
+</html>
